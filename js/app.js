@@ -39,11 +39,21 @@ var travel=prompt('Have I traveled outside of the country?').toLowerCase();
 console.log( 'User answered travel with' + travel);
 
 if (travel==='y' || travel==='yes') { 
-alert('Good job! I have only been to Canada but that still counts and was a lot of fun! Hoping to go to Ireland at the end of this year!');
+    alert('Good job! I have only been to Canada but that still counts and was a lot of fun! Hoping to go to Ireland at the end of this year!');
 } else if (travel==='n'|| travel==="no") {
     alert('Actually I have! I\'ve only ever been to Canada, but it still counts!');
 } else {
     alert('Since you didn\'t guess I guess I\'ll just tell you, I have been out of the country, I went all the way to Canada!'); 
 }
 
+var nickname=prompt('Do I have a nickname?').toLowerCase();
+console.log('The user guessed' + nickname);
 
+if (nickname==='y' || nickname==='yes') {
+    alert('Yup! I mostly go by Rebecca but a lot of my friends call me RPB, I\'ll explain it if you ask. A few people call me Becca as well, but never Becky');
+}
+else if (nickname==='n' || nickname==='no') {
+    alert('Actually I do! While I mostly go by Rebecca a lot of my friends call me RPB');
+} else {
+    alert('Well, if you aren\'t going to ask then I am not going to tell you');
+}
