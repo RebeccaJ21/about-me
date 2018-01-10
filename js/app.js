@@ -57,7 +57,7 @@ if (nickname==='y' || nickname==='yes') {
     alert('Well, if you aren\'t going to ask then I am not going to tell you');
 }
 
-var hairColor=prompt('Is my hair it\'s natural color?');
+var hairColor=prompt('Is my hair it\'s natural color?').toLowerCase();
 console.log('The user guessed' + hairColor);
 
 if (hairColor==='y' || hairColor==='yes') {
@@ -67,3 +67,6 @@ if (hairColor==='y' || hairColor==='yes') {
 } else {
     alert('Spolier alert! It is my natural hair color'); 
 }
+
+alert('Hope you enjoyed getting to know a little bit about me!');
+
