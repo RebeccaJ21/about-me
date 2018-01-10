@@ -22,7 +22,7 @@ var siblings=prompt('Time for the next question! Do I have any siblings?').toLow
 console.log( 'User answered siblings with' + siblings);
 
 if (siblings==='y' || siblings==='yes') { 
- var numberOfSiblings=prompt('You are right! Now for a bonus question can you guess how many siblings I have?');
+ var numberOfSiblings=prompt('You are right! Now for a bonus question can you guess how many siblings I have?').toLowerCase();
  if (parseInt(numberOfSiblings)===2 || numberOfSiblings==='two') {
      alert('Wow! You got it! I have two sisters. They are 16.');
  } else { 

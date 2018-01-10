@@ -1,4 +1,16 @@
 body {
-    background-color: rgb(112, 112, 192);
+    background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463562030jvk.jpg);
     text-align: center; 
+}
+h1 { 
+    color: rgba(199, 203, 252, 0.76);
+    font-size: 100px;
+}
+h2 {
+    color: rgba(199,203,252,0.76);
+    font-size: 50px;
+}
+ul {
+    color: rgba(199,203,252,0.76);
+    font-size: 30px;
 }
