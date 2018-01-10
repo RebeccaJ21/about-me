@@ -51,9 +51,19 @@ console.log('The user guessed' + nickname);
 
 if (nickname==='y' || nickname==='yes') {
     alert('Yup! I mostly go by Rebecca but a lot of my friends call me RPB, I\'ll explain it if you ask. A few people call me Becca as well, but never Becky');
-}
-else if (nickname==='n' || nickname==='no') {
+} else if (nickname==='n' || nickname==='no') {
     alert('Actually I do! While I mostly go by Rebecca a lot of my friends call me RPB');
 } else {
     alert('Well, if you aren\'t going to ask then I am not going to tell you');
+}
+
+var hairColor=prompt('Is my hair it\'s natural color?');
+console.log('The user guessed' + hairColor);
+
+if (hairColor==='y' || hairColor==='yes') {
+    alert('Correct! Thought we would finish with something easy');
+} else if (hairColor==='n' || hairColor==='no') {
+    alert('Wrong!');
+} else {
+    alert('Spolier alert! It is my natural hair color'); 
 }
