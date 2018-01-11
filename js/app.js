@@ -6,7 +6,7 @@ var answersCorrect=0;
 var userName =prompt('Before we get to me, please tell me your name!');
 console.log( 'The user entered: ' + userName);
 
-alert('Hello, ' + userName + ' thank you for stopping by! For the following five questions please answer with Y or Yes, N or No. When you are ready hit OK!');
+alert('Hello, ' + userName + ' thank you for stopping by! For the five yes or no questions please answer with Y or Yes, N or No. When you are ready hit OK!');
 
 var placesLived=prompt('Alright, ' +userName + ' let\'s start with something basic. Have I lived in any state beside Washington?').toLowerCase();
 console.log( 'User answered placesLived with' + placesLived);
@@ -95,16 +95,22 @@ counter+=1
     alert('8 is correct!')
     answersCorrect+=1;
   }
- var kidsSports=prompt('Guess one of the sports I did as a kid').toLowerCase();
+ var kidsSports=['Swimming', 'Figure Skating', 'Soccer', 'T-Ball', 'Basketball'];
+ var kidsSportsGuess=prompt('Guess one of the sports I did as a kid').toLowerCase();
  var counter=0;
- while (counter<6 && kidsSports!='Swimming' && kidsSports!='Figure Skating' && kidsSports!='Soccer' && kidsSports!='T-Ball' && kidsSports!='Basketball') {
+ for (var i=0; i=kidsSports.length; i++ && counter<6); {
      console.log('Incorrect sports guessed');
     prompt('Incorrect! Guess again!');
-    counter+=1
- } if (kidsSports==='Swimming' || kidsSports==='Figure Skating' || kidsSports!='Soccer' || kidsSports!='T-Ball' || kidsSports!='Basketball') {
+ 
+ if (kidsSportsGuess===kidsSports[i]) {
      console.log('Correct Answer');
      alert('You got it! I at some point participated in, Soccer, Swimming, T-Ball, Basketball, and Figure Skating!');
-     answersCorrect+=1
+     answersCorrect+=1;
+ } else {
+     alert('Nope! I at some point participated in, Soccer, Swimming, T-Ball, Basketball, and Figure Skating!')
+ 
+    }
+ 
  }
 
     alert('Hope you enjoyed getting to know a little bit about me! You got ' + answersCorrect + ' out of 8!');
