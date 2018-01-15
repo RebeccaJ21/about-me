@@ -2,33 +2,59 @@ body {
     background-image: url(http://www.publicdomainpictures.net/pictures/170000/velka/grunge-background-1463562030jvk.jpg);
     text-align: center; 
     color: rgba(199, 203, 252, 0.76);
+    max-width: 100%
 }
 header {
 max-width: 100%;
 font-family: 'Roboto Slab', serif;
-font-size: 40px;
+font-size: 100px;
 background-color:rgba(188, 170, 189, 0.25);
+padding-top: 20px;
 
 }
 h2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 70px;
+    padding-top: 50px;
+
 }
-ul {
-    font-size: 30px;
-    list-style-type: disc;
+main {
+    font-size: 50px;
+    list-style-type: decimal;
     list-style-position: inside;
+    max-width: 100%;
 }
-footer {
-    font-size: 15px;
-    background-color:rgba(188, 170, 189, 0.25);
-    max-width: 33%
-  }
+
 ol {
-    font-size: 15px;
+    font-size: 30px;
+    list-style-type: decimal;
+    text-align: center;
+    list-style-position: inside;
+    float: center;
+    max-width: 100%;
+    background-color:rgba(199, 203, 252, 0.25);
+}
+
+h3 {
+    font-size: 30px;
+    max-width: 33%;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 5px;
+  }
+ul {
+    font-size: 25px;
     list-style-type: decimal;
     text-align: left;
     list-style-position: inside;
     float: left;
-    max-width: 33
+    max-width: 33%;
+    font-size: 15px;
+    background-color:rgba(199, 203, 252, 0.25);
+    margin-left: 100px;
+}
+
+img {
+    height: 500px;
+    width: 350px;
 }
